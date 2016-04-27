@@ -1,5 +1,10 @@
 # Scala Documentation
 
-1. [Array](array/array.md)
-2. [List](list/list.md)
-3. [Command Line Input](command-line-input/command-line-input.md)
+ * [Command Line Input](command-line-input/command-line-input.md)
+ * [String](string/string.md)
+ * [Array](array/array.md)
+ * [List](list/list.md)
+ * [Vector](vector/vector.md)
+ * [Iterator](iterator/iterator.md)
+ * [HashMap](hashmap/hashmap.md)
+ * [Math](math/math.md)
