@@ -28,3 +28,12 @@
 2. Filter
    var numList:List[Int] = List(1,2,3,4);
    var evenNumbers = numList.filter( _%2 == 0 );
+   
+3. Get unique values from a List
+    import scala.collection.immutable.List
+    list.distinct
+    
+    
+4. Build string from List of Characters
+
+   list.mkString
