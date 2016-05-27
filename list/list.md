@@ -20,10 +20,15 @@
    mapListIndexes.map(index=>inputList(index)); // returns  List(1,2,6,6)
 
 1. Iterating over list
+   var numList:List[Int] = List(1,2,3,4);
    a. Using foreach
-     var numList:List[Int] = List(1,2,3,4);
      // printing each element in new line
      numList.foreach( println(_) );
+     
+   b. Using for
+      for(num <- numList){
+        println(num); 
+      }
 
 2. Filter
    var numList:List[Int] = List(1,2,3,4);
